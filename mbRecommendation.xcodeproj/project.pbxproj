@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		A3582A1B244183F000079F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A1A244183F000079F39 /* AppDelegate.swift */; };
 		A3582A1D244183F000079F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A1C244183F000079F39 /* SceneDelegate.swift */; };
-		A3582A1F244183F000079F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A1E244183F000079F39 /* ViewController.swift */; };
+		A3582A1F244183F000079F39 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A1E244183F000079F39 /* ChoiceViewController.swift */; };
 		A3582A22244183F000079F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3582A20244183F000079F39 /* Main.storyboard */; };
 		A3582A24244183F100079F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3582A23244183F100079F39 /* Assets.xcassets */; };
 		A3582A27244183F100079F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3582A25244183F100079F39 /* LaunchScreen.storyboard */; };
+		A3582A2F2441918200079F39 /* MovieQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A2E2441918200079F39 /* MovieQuestionViewController.swift */; };
+		A3582A31244191AB00079F39 /* MovieResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A30244191AB00079F39 /* MovieResultViewController.swift */; };
+		A3582A33244191C300079F39 /* MovieQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A32244191C300079F39 /* MovieQuestionData.swift */; };
+		A3582A362441921100079F39 /* SnackQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A352441921100079F39 /* SnackQuestionViewController.swift */; };
+		A3582A382441922300079F39 /* SnackResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A372441922300079F39 /* SnackResultViewController.swift */; };
+		A3582A3A2441923200079F39 /* SnackQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A392441923200079F39 /* SnackQuestionData.swift */; };
+		A395840E2442D17100080C00 /* mbShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395840D2442D17100080C00 /* mbShuffle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3582A17244183F000079F39 /* mbRecommendation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mbRecommendation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3582A1A244183F000079F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3582A1C244183F000079F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3582A1E244183F000079F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3582A1E244183F000079F39 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		A3582A21244183F000079F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3582A23244183F100079F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3582A26244183F100079F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3582A28244183F200079F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3582A2E2441918200079F39 /* MovieQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionViewController.swift; sourceTree = "<group>"; };
+		A3582A30244191AB00079F39 /* MovieResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResultViewController.swift; sourceTree = "<group>"; };
+		A3582A32244191C300079F39 /* MovieQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionData.swift; sourceTree = "<group>"; };
+		A3582A352441921100079F39 /* SnackQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackQuestionViewController.swift; sourceTree = "<group>"; };
+		A3582A372441922300079F39 /* SnackResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackResultViewController.swift; sourceTree = "<group>"; };
+		A3582A392441923200079F39 /* SnackQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackQuestionData.swift; sourceTree = "<group>"; };
+		A395840D2442D17100080C00 /* mbShuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbShuffle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,7 @@
 				A3582A18244183F000079F39 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		A3582A18244183F000079F39 /* Products */ = {
 			isa = PBXGroup;
@@ -58,13 +73,36 @@
 			children = (
 				A3582A1A244183F000079F39 /* AppDelegate.swift */,
 				A3582A1C244183F000079F39 /* SceneDelegate.swift */,
-				A3582A1E244183F000079F39 /* ViewController.swift */,
+				A3582A1E244183F000079F39 /* ChoiceViewController.swift */,
 				A3582A20244183F000079F39 /* Main.storyboard */,
 				A3582A23244183F100079F39 /* Assets.xcassets */,
 				A3582A25244183F100079F39 /* LaunchScreen.storyboard */,
 				A3582A28244183F200079F39 /* Info.plist */,
+				A3582A34244191CB00079F39 /* MovieItems */,
+				A3582A3B2441923700079F39 /* SnackItems */,
+				A395840D2442D17100080C00 /* mbShuffle.swift */,
 			);
 			path = mbRecommendation;
+			sourceTree = "<group>";
+		};
+		A3582A34244191CB00079F39 /* MovieItems */ = {
+			isa = PBXGroup;
+			children = (
+				A3582A2E2441918200079F39 /* MovieQuestionViewController.swift */,
+				A3582A30244191AB00079F39 /* MovieResultViewController.swift */,
+				A3582A32244191C300079F39 /* MovieQuestionData.swift */,
+			);
+			path = MovieItems;
+			sourceTree = "<group>";
+		};
+		A3582A3B2441923700079F39 /* SnackItems */ = {
+			isa = PBXGroup;
+			children = (
+				A3582A352441921100079F39 /* SnackQuestionViewController.swift */,
+				A3582A372441922300079F39 /* SnackResultViewController.swift */,
+				A3582A392441923200079F39 /* SnackQuestionData.swift */,
+			);
+			path = SnackItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3582A1F244183F000079F39 /* ViewController.swift in Sources */,
+				A395840E2442D17100080C00 /* mbShuffle.swift in Sources */,
+				A3582A382441922300079F39 /* SnackResultViewController.swift in Sources */,
+				A3582A3A2441923200079F39 /* SnackQuestionData.swift in Sources */,
+				A3582A1F244183F000079F39 /* ChoiceViewController.swift in Sources */,
+				A3582A31244191AB00079F39 /* MovieResultViewController.swift in Sources */,
+				A3582A362441921100079F39 /* SnackQuestionViewController.swift in Sources */,
+				A3582A2F2441918200079F39 /* MovieQuestionViewController.swift in Sources */,
 				A3582A1B244183F000079F39 /* AppDelegate.swift in Sources */,
+				A3582A33244191C300079F39 /* MovieQuestionData.swift in Sources */,
 				A3582A1D244183F000079F39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.markbattistella.mbRecommendation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.markbattistella.mbRecommendation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
