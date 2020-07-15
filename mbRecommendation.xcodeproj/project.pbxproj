@@ -16,9 +16,6 @@
 		A3582A2F2441918200079F39 /* MovieQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A2E2441918200079F39 /* MovieQuestionViewController.swift */; };
 		A3582A31244191AB00079F39 /* MovieResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A30244191AB00079F39 /* MovieResultViewController.swift */; };
 		A3582A33244191C300079F39 /* MovieQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A32244191C300079F39 /* MovieQuestionData.swift */; };
-		A3582A362441921100079F39 /* SnackQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A352441921100079F39 /* SnackQuestionViewController.swift */; };
-		A3582A382441922300079F39 /* SnackResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A372441922300079F39 /* SnackResultViewController.swift */; };
-		A3582A3A2441923200079F39 /* SnackQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3582A392441923200079F39 /* SnackQuestionData.swift */; };
 		A395840E2442D17100080C00 /* mbShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395840D2442D17100080C00 /* mbShuffle.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +31,6 @@
 		A3582A2E2441918200079F39 /* MovieQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionViewController.swift; sourceTree = "<group>"; };
 		A3582A30244191AB00079F39 /* MovieResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResultViewController.swift; sourceTree = "<group>"; };
 		A3582A32244191C300079F39 /* MovieQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionData.swift; sourceTree = "<group>"; };
-		A3582A352441921100079F39 /* SnackQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackQuestionViewController.swift; sourceTree = "<group>"; };
-		A3582A372441922300079F39 /* SnackResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackResultViewController.swift; sourceTree = "<group>"; };
-		A3582A392441923200079F39 /* SnackQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackQuestionData.swift; sourceTree = "<group>"; };
 		A395840D2442D17100080C00 /* mbShuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbShuffle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +73,6 @@
 				A3582A25244183F100079F39 /* LaunchScreen.storyboard */,
 				A3582A28244183F200079F39 /* Info.plist */,
 				A3582A34244191CB00079F39 /* MovieItems */,
-				A3582A3B2441923700079F39 /* SnackItems */,
 				A395840D2442D17100080C00 /* mbShuffle.swift */,
 			);
 			path = mbRecommendation;
@@ -93,16 +86,6 @@
 				A3582A32244191C300079F39 /* MovieQuestionData.swift */,
 			);
 			path = MovieItems;
-			sourceTree = "<group>";
-		};
-		A3582A3B2441923700079F39 /* SnackItems */ = {
-			isa = PBXGroup;
-			children = (
-				A3582A352441921100079F39 /* SnackQuestionViewController.swift */,
-				A3582A372441922300079F39 /* SnackResultViewController.swift */,
-				A3582A392441923200079F39 /* SnackQuestionData.swift */,
-			);
-			path = SnackItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A395840E2442D17100080C00 /* mbShuffle.swift in Sources */,
-				A3582A382441922300079F39 /* SnackResultViewController.swift in Sources */,
-				A3582A3A2441923200079F39 /* SnackQuestionData.swift in Sources */,
 				A3582A1F244183F000079F39 /* ChoiceViewController.swift in Sources */,
 				A3582A31244191AB00079F39 /* MovieResultViewController.swift in Sources */,
-				A3582A362441921100079F39 /* SnackQuestionViewController.swift in Sources */,
 				A3582A2F2441918200079F39 /* MovieQuestionViewController.swift in Sources */,
 				A3582A1B244183F000079F39 /* AppDelegate.swift in Sources */,
 				A3582A33244191C300079F39 /* MovieQuestionData.swift in Sources */,

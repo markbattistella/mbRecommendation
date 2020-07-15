@@ -8,67 +8,62 @@
 
 import UIKit
 
-// create the question struct
-struct MovieQuestion {
-	var text: String
-	var answers: [MovieAnswer]
-}
 
-// create the answer struct
-struct MovieAnswer {
-	var text: String
-	var movie: Movie
-}
 
-// create the movie struct
-struct MovieStruct {
-	let movieTitle:		String
-	let moviePoster:	UIImageView
-	let movieColour:	UIColor
-	let movieFont:		UIColor
-}
+
 
 //
-enum Movie {
-	
-	// create the outputs
-	case theMask, serendipity, theEvildDead, looper
-	
-	// create the recommendations
-	var recommendation: MovieStruct {
-		
-		switch self {
-		case .theMask:
-			return MovieStruct(
-				movieTitle:		"The Mask (1994)",
-				moviePoster:	UIImageView( image: UIImage(named: "posterTheMask")! ),
-				movieColour:	UIColor(red: 22/255, green: 160/255, blue: 133/255, alpha: 1),
-				movieFont:		UIColor(red: 33/255, green: 3/255, blue: 3/255, alpha: 1)
-			)
-			
-		case .serendipity:
-			return MovieStruct(
-				movieTitle:		"Serendipity (2001)",
-				moviePoster: 	UIImageView( image: UIImage(named: "posterSerendipity")! ),
-				movieColour:	.systemPink,
-				movieFont:		UIColor(red: 33/255, green: 3/255, blue: 3/255, alpha: 1)
-			)
-			
-		case .theEvildDead:
-			return MovieStruct(
-				movieTitle:		"The Evil Dead (1984)",
-				moviePoster: 	UIImageView( image: UIImage(named: "posterTheEvilDead")! ),
-				movieColour:	.black,
-				movieFont:		.white
-			)
-			
-		case .looper:
-			return MovieStruct(
-				movieTitle:		"Looper (2012)",
-				moviePoster: 	UIImageView( image: UIImage(named: "posterLooper")! ),
-				movieColour:	UIColor(red: 236/255, green: 240/255, blue: 241/255, alpha: 1),
-				movieFont:		.black
-			)
-		}
-	}
+enum MovieCriteria: String, CaseIterable {
+    case decade, genres
 }
+
+struct Movie {
+	var title: String
+	var year: Int
+	var decade: String
+	var rating: Int
+	var genres: [String]
+	var service: [String]
+}
+
+
+
+
+let movieListArray: Array = [
+	[
+			"title":	"The Mask",
+			"year":		1994,
+			"decade":	"1990s",
+			"rating":	7.4,
+			"genres":	["Comedy"],
+			"service":	["Foxtel"]
+	],
+		
+	[
+			"title":	"Serendipity",
+			"year":		2001,
+			"decade":	"2000s",
+			"rating":	6.0,
+			"genres":	["Romance"],
+			"service":	["Foxtel"]
+	],
+		
+	[
+			"title":	"The Evil Dead",
+			"year":		1980,
+			"decade":	"1980s",
+			"rating":	7.8,
+			"genres":	["Horror"],
+			"service":	["Youtube"]
+	],
+		
+	[
+			"title":	"Looper",
+			"year":		2012,
+			"decade":	"2010s",
+			"rating":	8.9,
+			"genres":	["Sci-Fi"],
+			"service":	["Netflix"]
+	]
+		
+]
